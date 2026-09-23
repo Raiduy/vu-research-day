@@ -1,4 +1,4 @@
-# Configuring Coding Agents against the Nebula Gateway
+# Configuring Coding Agents with Nebula
 
 This folder contains the configuration files that point four different coding agents at the
 same internal model gateway — **Nebula**, an OpenAI/Anthropic-compatible API hosted at
@@ -17,7 +17,7 @@ Each file configures a different tool, but they all do the same job: tell the ag
 
 ---
 
-## The Nebula gateway
+## Nebula
 
 All four configurations target the same host:
 
@@ -33,7 +33,7 @@ All four configurations target the same host:
 1. **Get your API key from Nebula.** Every file contains the placeholder
    `REPLACE_WITH_YOUR_API_KEY`. Replace it with your real Nebula API key in each file
 you want to use. Please check the [API Key guide](https://nebula.cs.vu.nl/welcome/generatingApiKey/) for instructions on how to obtain your key.
-2. **Make sure you can reach the gateway** (`https://nebula.cs.vu.nl/api/`).
+2. **Make sure you can reach Nebula** (`https://nebula.cs.vu.nl/api/`).
 
 > **WARNING**: keep your API key to yourself, and yourself only. Watch out for files that you commit to public repos, or share with others. If you think your key has been compromised, generate a new one.
 
@@ -105,7 +105,7 @@ This is a launcher script rather than a config file. It exports a set of
 
 ```bash
 export ANTHROPIC_API_KEY="REPLACE_WITH_YOUR_API_KEY"          # your Nebula key
-export ANTHROPIC_BASE_URL=https://nebula.cs.vu.nl/api/        # the gateway
+export ANTHROPIC_BASE_URL=https://nebula.cs.vu.nl/api/        # Nebula
 export ANTHROPIC_DEFAULT_OPUS_MODEL="SURF.Qwen3.8-27B-FP8"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="FAST.gpt-oss:120b"
 export ANTHROPIC_DEFAULT_FABLE_MODEL="FAST.gemma4:31b"

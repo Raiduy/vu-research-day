@@ -60,7 +60,7 @@ BASE_URL = os.getenv("NEBULA_BASE_URL")
 API_KEY  = os.getenv("NEBULA_API_KEY")
 
 # Initialise the OpenAI client for a custom endpoint
-client = openai.OpenAI(api_key=API_KEY, base_url=BASE_URL.rstrip('/'))
+client = openai.OpenAI(api_key=API_KEY, base_url=BASE_URL)
 ```
 
 * `load_dotenv()` pulls the values from a `.env` file into the process environment.
@@ -81,8 +81,6 @@ The function returns the assistant’s reply as a plain string.
 ---
 
 ## Running the example
-
-Uncomment the block at the end of `openai_example.py` (or call the function from your own code):
 
 ```bash
 python programatic-prompts/openai_example.py

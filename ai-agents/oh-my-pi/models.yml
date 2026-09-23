@@ -1,0 +1,16 @@
+providers:
+  nebula:
+    baseUrl: https://nebula.cs.vu.nl/api
+    api: openai-completions
+    apiKey: REPLACE_WITH_YOUR_API_KEY
+    models:
+      - id: FAST.gpt-oss:120b
+        name: FAST.gpt-oss:120b
+      - id: FAST.gemma4:31b
+        name: FAST.gemma4:31b
+      - id: SURF.gpt-oss-120b
+        name: SURF.gpt-oss-120b
+      - id: SURF.Mistral-Small-3.2-24B-Instruct-2506
+        name: SURF.Mistral-Small-3.2-24B-Instruct-2506
+      - id: SURF.Qwen3.8-27B-FP8
+        name: SURF.Qwen3.8-27B-FP8

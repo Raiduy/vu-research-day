@@ -1,0 +1,9 @@
+#!/bin/bash
+export ANTHROPIC_API_KEY="REPLACE_WITH_YOUR_API_KEY"
+export ANTHROPIC_BASE_URL=https://nebula.cs.vu.nl/api/
+export ANTHROPIC_DEFAULT_OPUS_MODEL="SURF.Qwen3.8-27B-FP8"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="FAST.gpt-oss:120b"
+export ANTHROPIC_DEFAULT_FABLE_MODEL="FAST.gemma4:31b"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="SURF.Mistral-Small-3.2-24B-Instruct-2506"
+
+claude 

@@ -34,7 +34,7 @@ Copilot can talk to any OpenAI‑compatible backend via a **custom provider**.
 
 ---
 
-## 3. [Optional] Add OpenCode as agent
+## 3. [Highly Recommended] Add OpenCode as agent
 
 Copilot can optionally use OpenCode agents to automatically create and edit files for you in your vault. If you only want to chat with the AI, you can skip this step.
 

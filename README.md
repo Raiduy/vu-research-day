@@ -1,4 +1,4 @@
-# VU Nebula Gateway Integrations
+# VU Research Day - Nebula Integrations Workshop
 
 This repository provides configuration files, guides, and code examples to connect your favorite apps and scripts to **Nebula**, a secure AI service hosted at Vrije Universiteit Amsterdam (`https://nebula.cs.vu.nl/api/`). It works similarly to ChatGPT or Claude, allowing you to use advanced AI directly within your own tools.
 
